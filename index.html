@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- set language of page -> use lang="en" for exemple -->
+<html lang="pt-br">
+
+<!-- head start -->
+
+<head>
+  <!-- Meta utf-8 for correction of texts on browsers -->
+  <meta charset="UTF-8">
+  <!-- Meta of compatibility on others devices -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Meta of responsive page -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title of page -->
+  <title>IMC Calculador</title>
+  <!-- Using favicon -->
+  <link rel="shortcut icon" href="./src/img/imcIcon.png" type="image/x-icon">
+  <!-- using global Style settings -->
+  <link rel="stylesheet" href="./src/css/globalSettings/globalSettings.css">
+  <!-- link css styles for this html -->
+  <link rel="stylesheet" href="./src/css/style.css">
+  <!-- link start javaScript for page -->
+  <!-- <script src="./src/js/main.js"></script> -->
+</head> <!-- end head -->
+<!-- body start -->
+
+<body>
+  <!-- using tag on html5 header -->
+  <header>
+    <section id="topBar">
+      <div class="container">
+        <div class="logo">
+          <h1>IMC<span class="redLogo">Calculador</span></h1>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- using tag on html5 main -->
+  <main>
+    <section id="mainContents">
+      <div class="container">
+        <div class="boxContent">
+          <h1>Calcule seu IMC(Indice de Massa Corporal)</h1>
+
+          <form action="#" id="formulario" method="POST">
+            <label for="peso"> Peso </label>
+            <input type="text" name="peso" id="peso" placeholder="Digite seu peso EX: 80">
+
+            <label for="altura"> Altura </label>
+            <input type="text" name="altura" id="altura" placeholder="Digite sua altura Ex: 1.80">
+
+            <button type="submit"> Caulcular </button>
+          </form>
+
+          <div id="resultado"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- using tag on html5 footer -->
+  <footer>
+    <div class="fotter">
+      <div class="container">
+        <p>feito com <span class="redLogo heart">&hearts;</span> por Saulo Morais(LitoDev)</p>
+        <p class="uLine">02/08/2022</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- link script update -->
+  <script src="./src/js/main.js"></script>
+</body> <!-- end body -->
+
+</html>
