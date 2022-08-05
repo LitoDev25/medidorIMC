@@ -87,9 +87,9 @@ function setResultado(msg, isValid) {
 }
 
 const timeL = document.quarySelector('.timeL span');
-const dataL = new Date();
+const timeLs = new Date();
 const options = {
-  dateStyle = 'short';
-}
+  timeStyle = 'short';
+};
 
-timeL.innerHTML = data.toLocaleDateString('pt-BR', options);
+timeL.innerHTML = timeLs.toLocaleDateString('pt-BR', options);
