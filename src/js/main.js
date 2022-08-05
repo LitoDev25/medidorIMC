@@ -86,7 +86,7 @@ function setResultado(msg, isValid) {
   result.appendChild(p)
 }
 
-const timeL = document.quarySelector('.timeL span');
+const timeL = document.quarySelector('#timeL');
 const timeLs = new Date();
 const options = {
   timeStyle = 'short';
