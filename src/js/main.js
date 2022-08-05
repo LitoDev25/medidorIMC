@@ -85,3 +85,11 @@ function setResultado(msg, isValid) {
   p.innerHTML = msg;
   result.appendChild(p)
 }
+
+const timeL = document.quarySelector('.timeL');
+const dataL = new Date();
+const options = {
+  dateStyle = 'sort';
+}
+
+timeL.innerHTML = data.toLocaleDateString('pt-BR', options);
