@@ -86,7 +86,7 @@ function setResultado(msg, isValid) {
   result.appendChild(p)
 }
 
-const timeL = document.quarySelector('.timeL');
+const timeL = document.quarySelector('.timeL span');
 const dataL = new Date();
 const options = {
   dateStyle = 'sort';
